@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/container_glass"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/container"/>
+
+    <TextView
+        android:id="@+id/typeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/type_container_place_holder"
+        android:textColor="@color/darkGreen"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/description_place_holder"
+        android:textColor="@color/darkGreen"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/newThings"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/new_things_place_holder"
+        android:textColor="@color/darkGreen"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        android:layout_gravity="center"/>
+</LinearLayout>

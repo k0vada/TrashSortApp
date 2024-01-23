@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TrashSortApp</string>
+    <string name="recycle_button">The item can be recycled</string>
+    <string name="non_recycle_button">The item cannot be recycled</string>
+    <string name="cover">Cover</string>
+    <string name="title_place_holder">Title place holder</string>
+    <string name="container">Type of container</string>
+    <string name="type_container_place_holder">Type of container</string>
+    <string name="description_place_holder">Description place holder</string>
+    <string name="new_things_place_holder">New things after recycling</string>
+
+</resources>
